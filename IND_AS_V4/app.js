@@ -1,5 +1,5 @@
 
-const DATA_URLS=['data/indas-data.json','../data/indas-data.json'], VERSION='4.0.0', COMPRESSED_DATA_SETS=[['data/indas-data.json.gz.b64.part1','data/indas-data.json.gz.b64.part2','data/indas-data.json.gz.b64.part3'],['../data/indas-data.json.gz.b64.part1','../data/indas-data.json.gz.b64.part2','../data/indas-data.json.gz.b64.part3']], KEY='mcaIndAsXbrlWorkbenchV4';
+const DATA_URLS=['data/indas-data.json'], VERSION='4.0.0', COMPRESSED_DATA_SETS=[['data/indas-data.json.gz.b64.part1','data/indas-data.json.gz.b64.part2','data/indas-data.json.gz.b64.part3']], KEY='mcaIndAsXbrlWorkbenchV4';
 let DATA=null;
 const state={page:'home',elr:0,ruleQuery:'',showOnlyPopulated:false,profile:{cin:'',companyName:'',fyStart:'',fyEnd:'',incorporationDate:'',currency:'INR',nature:'Standalone',firstYear:false,rounding:'Actuals',cashFlow:'',pan:'',address:'',industry:''},facts:{},dimRows:{},contexts:[],footnotes:[],issues:[],dirty:false};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
