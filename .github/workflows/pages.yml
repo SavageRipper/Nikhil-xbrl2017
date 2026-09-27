@@ -1,4 +1,4 @@
-name: Deploy IND-AS V3 to GitHub Pages
+name: Deploy IND-AS V4 to GitHub Pages
 
 on:
   push:
